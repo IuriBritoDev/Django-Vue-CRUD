@@ -1,5 +1,8 @@
 # Django-Vue-CRUD
  CRUD: Product management system built with Django, Django Rest Framework and Vue.js
+ 
+ ![products home-ANIMATION](https://user-images.githubusercontent.com/80118088/218264139-1849645d-c570-4e9a-8bf5-e519c1cbbc3b.gif)
+
 
 ## Backend
 
@@ -7,19 +10,30 @@
  Python 3.9.2
 
 ### Installation
- cd Backend <br>
+ ```
+ cd Backend 
+ ```
+ 
+ ```
  pip install -r requirements.txt
-
+ ```
+ 
 ### Migrations
- python manage.py makemigrations <br>
+ ```
+ python manage.py makemigrations
+ ```
+ ```
  python manage.py migrate 
+ ```
 
-### Run roject
+### Run project
+ ```
  python manage.py runserver
+ ```
 
-### Endpoints
+## Endpoints
 
-## Producr
+### Product
 
  ```JSON
 {
@@ -32,7 +46,14 @@
 
 ## Frontend
 
+### Requirements
+ Node 16.13.0
+ 
 ### Project setup
+```
+cd Frontend/client
+```
+
 ```
 npm install
 ```
